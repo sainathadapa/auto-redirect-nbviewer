@@ -8,6 +8,8 @@
     "webRequest",
     "*://github.com/*",
     "*://www.github.com/*",
+    "*://gitlab.com/*",
+    "*://www.gitlab.com/*",
     "webRequestBlocking"
   ]
 }
