@@ -1,6 +1,6 @@
 {
   "name": "Auto-Redirect to NBViewer",
-  "description": "Auto-Redirect Github ipynb urls to NbViewer",
+  "description": "Auto-Redirect Github/Gitlab Jupyter notebook pages to NbViewer",
   "version": "0.0.2",
   "manifest_version": 2,
   "background": {"scripts":["background.js"]},
