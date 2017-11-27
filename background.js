@@ -29,7 +29,7 @@ chrome.webRequest.onBeforeRequest.addListener(
       "*://gitlab.com/*",
       "*://www.gitlab.com/*"
     ],
-    types: ["main_frame", "sub_frame"]
+    types: ["main_frame"]
   },
   ["blocking"]
 );
