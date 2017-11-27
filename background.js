@@ -1,7 +1,7 @@
 chrome.webRequest.onBeforeRequest.addListener(
   function(details) {
 
-    var url_root = 'http://nbviewer.ipython.org/';
+    var url_root = 'https://nbviewer.ipython.org/';
     var url = null;
 
     var github_re = /^https:\/\/(github\.com\/.*\/)blob\/(.*\.ipynb)$/;
